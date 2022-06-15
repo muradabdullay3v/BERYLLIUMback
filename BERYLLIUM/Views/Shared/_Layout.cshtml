@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js" defer></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="~/slick/slick.css">
+    <link rel="stylesheet" href="~/slick/slick-theme.css">
+    <script src="~/slick/slick.min.js" defer></script>
+    <link rel="stylesheet" href="~/css/main.css">
+    <script src="~/js/main.js" defer></script>
+    <title>Beryllium - Free Website Template</title>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="custom_container">
+            <nav class="topnav">
+                <div class="logo"><a href="#">BERYLLIUM</a></div>
+                <div class="topnav_links">
+                    <a href="#" class="active">HOME</a>
+                    <a href="#">ABOUT</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">SERVICES
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Web Design</a>
+                            <a href="#">eCommerce</a>
+                            <a href="#">Branding</a>
+                            <a href="#">API</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">DROPDOWN
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">HTML5</a>
+                            <a href="#">CSS3</a>
+                            <a href="#">Sass</a>
+                            <a href="#">jQuery</a>
+                        </div>
+                    </div>
+                    <a href="#">PORTFOLIO</a>
+                    <a href="#">CONTACT</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </nav>
+            <nav class="sidebar close" id="sidebar">
+                <div class="close_button">
+                    <a href="javascript:void(0);" onclick="closeside()" class="close_linker"><i
+                            class="fa-solid fa-xmark"></i></a>
+                </div>
+                <div class="side-dropdown">
+                    <a class="side-dropdown_button active" href="javascript:void(0);">
+                        HOME
+                    </a>
+                    <div class="side-dropdown-content">
+                        <a href="#">Main Home</a>
+                        <a href="#">Grid Home</a>
+                        <a href="#">Flower Shop</a>
+                        <a href="#">Animated Slider</a>
+                        <a href="#">Metro Showcase</a>
+                        <a href="#">Carousel Showcase</a>
+                        <a href="#">Landing</a>
+                    </div>
+                </div>
+                <div class="side-dropdown">
+                    <a class="side-dropdown_button" href="javascript:void(0);">
+                        PAGES
+                    </a>
+                    <div class="side-dropdown-content">
+                        <a href="#">About Us</a>
+                        <a href="#">FAQ Page</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+                <div class="side-dropdown">
+                    <a class="side-dropdown_button" href="javascript:void(0);">SHOP</a>
+                    <div class="side-dropdown-content" id="shopdwn">
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                PRODUCT TYPES
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">Standart Product</a>
+                                <a href="#">Grouped Product</a>
+                                <a href="#">Variable Product</a>
+                                <a href="#">Virtual Product</a>
+                                <a href="#">External Product</a>
+                                <a href="#">Downloadable Product</a>
+                                <a href="#">On Sale Product</a>
+                                <a href="#">Out Of Stock Product</a>
+                                <a href="#">New Product</a>
+                            </div>
+                        </div>
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                SHOP PAGES
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">My Account</a>
+                                <a href="#">Cart</a>
+                                <a href="#">Checkout</a>
+                                <a href="#">Orders</a>
+                                <a href="#">Downloads</a>
+                            </div>
+                        </div>
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                SHOP TYPES
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">Product List</a>
+                                <a href="#">Without Sidebar</a>
+                                <a href="#">With Category Filter</a>
+                                <a href="#">With Ordering Filter</a>
+                                <a href="#">Shop Carousel</a>
+                                <a href="#">Product Categories</a>
+                                <a href="#">Single Category</a>
+                            </div>
+                        </div>
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                SHOP LAYOUTS
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">Two Columns Grid</a>
+                                <a href="#">Three Columns Grid</a>
+                                <a href="#">Four Columns Grid</a>
+                                <a href="#">Four Columns Wide</a>
+                                <a href="#">Five Coluns Wide</a>
+                                <a href="#">Six Columns Wide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-dropdown">
+                    <a class="side-dropdown_button" href="javascript:void(0);">
+                        PORTFOLIO
+                    </a>
+                    <div class="side-dropdown-content">
+                        <a href="#">Standart</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Mansory</a>
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                Portfolio Layouts
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">Two Columns</a>
+                                <a href="#">Three Columns</a>
+                                <a href="#">Four Columns</a>
+                                <a href="#">Four Columns Wide</a>
+                                <a href="#">Five Columns Wide</a>
+                            </div>
+                        </div>
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                Portfolio Single
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">Small Images</a>
+                                <a href="#">Small Slider</a>
+                                <a href="#">Big Images</a>
+                                <a href="#">Big Slider</a>
+                                <a href="#">Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-dropdown">
+                    <a class="side-dropdown_button" href="javascript:void(0);">
+                        BLOG
+                    </a>
+                    <div class="side-dropdown-content">
+                        <a href="#">Mansory</a>
+                        <a href="#">Standart</a>
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                Post Types
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">Standart</a>
+                                <a href="#">Gallery</a>
+                                <a href="#">Link</a>
+                                <a href="#">Quote</a>
+                                <a href="#">Audio</a>
+                                <a href="#">Video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-dropdown">
+                    <a class="side-dropdown_button" href="javascript:void(0);">
+                        ELEMENTS
+                    </a>
+                    <div class="side-dropdown-content">
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                Classic
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">Accordions</a>
+                                <a href="#">Tabs</a>
+                                <a href="#">Buttons</a>
+                                <a href="#">Video Button</a>
+                                <a href="#">Contact Form</a>
+                            </div>
+                        </div>
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                Infographic
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">Blog List</a>
+                                <a href="#">Counters</a>
+                                <a href="#">Countdown</a>
+                                <a href="#">Google Maps</a>
+                                <a href="#">Progress Bar</a>
+                                <a href="#">Pie Charts</a>
+                            </div>
+                        </div>
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                Interactive
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">Image Gallery</a>
+                                <a href="#">Testimonails</a>
+                                <a href="#">Team</a>
+                                <a href="#">Banner</a>
+                                <a href="#">Shop List</a>
+                                <a href="#">Portfolio List</a>
+                            </div>
+                        </div>
+                        <div class="sub_side-dropdown">
+                            <a href="javascript:void(0);" class="sub_side-dropdown_button">
+                                Typography
+                            </a>
+                            <div class="sub_side-dropdown-content">
+                                <a href="#">Headings</a>
+                                <a href="#">Columns</a>
+                                <a href="#">Section Title</a>
+                                <a href="#">Blockquote</a>
+                                <a href="#">Dropcaps</a>
+                                <a href="#">Highlights</a>
+                                <a href="#">Separators</a>
+                                <a href="#">Custom Font</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header End -->
+    <div>
+        @RenderBody()
+    </div>
+<footer>
+        <div class="upper_footer">
+            <div class="custom_container">
+                <div class="footer_context">
+                    <div class="footer_summary">
+                        <h2>Beryllium</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis,
+                            rhoncus euismod.</h4>
+                    </div>
+                    <div class="footer_links">
+                        <h2>Links</h2>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">FEATURES</a></li>
+                            <li><a href="#">PRODUCTS</a></li>
+                            <li><a href="#">TESTIMONIAL</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_work">
+                        <h2>Work</h2>
+                        <ul>
+                            <li><a href="#">NEW YORK ARENA</a></li>
+                            <li><a href="#">EAGLE PARK</a></li>
+                            <li><a href="#">NATIONALS PARK</a></li>
+                            <li><a href="#">MANILA PARK</a></li>
+                        </ul>
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Email">
+                        <button>SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer_below">
+            <div class="custom_container">
+                <div class="below_context">
+                    <div class="copyrigth">
+                        <p>© 2016 Free HTML5. All Rights Reserved.</p>
+                    </div>
+                    <div class="designed_by">
+                        <p>Designed by <span>muradabdullay3v</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
