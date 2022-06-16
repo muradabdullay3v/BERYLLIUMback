@@ -308,3 +308,6 @@ C:\Users\Murad's Tape\Desktop\BERYLLIUMback\BERYLLIUM\obj\Debug\netcoreapp3.1\Ra
 C:\Users\Murad's Tape\Desktop\BERYLLIUMback\BERYLLIUM\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Work\Default.cshtml.g.cs
 C:\Users\Murad's Tape\Desktop\BERYLLIUMback\BERYLLIUM\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\News\Default.cshtml.g.cs
 C:\Users\Murad's Tape\Desktop\BERYLLIUMback\BERYLLIUM\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Features\Default.cshtml.g.cs
+C:\Users\Murad's Tape\Desktop\BERYLLIUMback\BERYLLIUM\obj\Debug\netcoreapp3.1\Razor\Areas\BerylliumAdmin\Views\Slider\Index.cshtml.g.cs
+C:\Users\Murad's Tape\Desktop\BERYLLIUMback\BERYLLIUM\obj\Debug\netcoreapp3.1\Razor\Areas\BerylliumAdmin\Views\Slider\Create.cshtml.g.cs
+C:\Users\Murad's Tape\Desktop\BERYLLIUMback\BERYLLIUM\obj\Debug\netcoreapp3.1\Razor\Areas\BerylliumAdmin\Views\Slider\Update.cshtml.g.cs

@@ -7,5 +7,6 @@ namespace BERYLLIUM.ViewModels
     {
         public List<Work> Works { get; set; }
         public List<Setting> Settings { get; set; }
+        public List<Slider> Sliders { get; set; }
     }
 }

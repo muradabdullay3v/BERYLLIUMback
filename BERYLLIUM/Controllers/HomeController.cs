@@ -17,6 +17,7 @@ namespace BERYLLIUM.Controllers
             HomeViewModel home = new HomeViewModel
             {
                 Works = _context.Works.ToList(),
+                Sliders = _context.Sliders.ToList(),
             };
             return View(home);
         }
