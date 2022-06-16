@@ -1,0 +1,31 @@
+﻿@using BERYLLIUM.ViewModels
+@model HomeViewModel
+<section id="work">
+    <div class="work_title">
+        <h2>Work</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis,
+            rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.
+        </p>
+    </div>
+    <div class="custom_container">
+        <div class="work_cards">
+            @foreach (var work in @Model.Works)
+            {
+                <div class="work_cards-item">
+                    <img src="@work.Url" alt="image">
+                    <h3>@work.Title</h3>
+                    <p>@work.Description</p>
+                </div>
+            }
+            @foreach (var work in @Model.Works)
+            {
+                <div class="work_cards-item">
+                    <img src="@work.Url" alt="image">
+                    <h3>@work.Title</h3>
+                    <p>@work.Description</p>
+                </div>
+            }
+        </div>
+    </div>
+</section>

@@ -11,5 +11,6 @@ namespace BERYLLIUM.DAL
         }
 
         public DbSet<Work> Works { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }
