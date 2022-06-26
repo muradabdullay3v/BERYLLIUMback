@@ -1,6 +1,7 @@
 ﻿using BERYLLIUM.DAL;
 using BERYLLIUM.Helpers;
 using BERYLLIUM.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 namespace BERYLLIUM.Areas.BerylliumAdmin.Controllers
 {
     [Area("BerylliumAdmin")]
-
+    [Authorize(Roles = nameof(Role.RoleType.Admin))]
     public class SliderController : Controller
     {
         private AppDbContext _context { get; }

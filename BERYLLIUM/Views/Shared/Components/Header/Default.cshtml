@@ -31,6 +31,14 @@
                 </div>
                 <a href="#">PORTFOLIO</a>
                 <a href="#">CONTACT</a>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a href="#">@User.Identity.Name</a>
+                    <a asp-controller="Account" asp-action="Logout">Logout</a>
+                }
+                else{
+                    <a asp-controller="Account" asp-action="SignIn">Sign In</a>
+                }
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>

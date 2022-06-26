@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Murad's Tape\\Desktop\\BERYLLIUMback\\BERYLLIUM\\BERYLLIUM.csproj": {}
+    "F:\\Code\\BERYLLIUMback\\BERYLLIUM\\BERYLLIUM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Murad's Tape\\Desktop\\BERYLLIUMback\\BERYLLIUM\\BERYLLIUM.csproj": {
+    "F:\\Code\\BERYLLIUMback\\BERYLLIUM\\BERYLLIUM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murad's Tape\\Desktop\\BERYLLIUMback\\BERYLLIUM\\BERYLLIUM.csproj",
+        "projectUniqueName": "F:\\Code\\BERYLLIUMback\\BERYLLIUM\\BERYLLIUM.csproj",
         "projectName": "BERYLLIUM",
-        "projectPath": "C:\\Users\\Murad's Tape\\Desktop\\BERYLLIUMback\\BERYLLIUM\\BERYLLIUM.csproj",
-        "packagesPath": "C:\\Users\\Murad's Tape\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murad's Tape\\Desktop\\BERYLLIUMback\\BERYLLIUM\\obj\\",
+        "projectPath": "F:\\Code\\BERYLLIUMback\\BERYLLIUM\\BERYLLIUM.csproj",
+        "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
+        "outputPath": "F:\\Code\\BERYLLIUMback\\BERYLLIUM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Murad's Tape\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.26, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.26, )"
@@ -73,6 +77,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -81,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
